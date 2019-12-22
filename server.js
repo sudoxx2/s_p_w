@@ -5,7 +5,7 @@ app = express();
 app.use(express.static('public'))
 
 app.get('/', (req, res)=> {
-    res.sendFile(path.join(__dirname + '/first_page.html'))
+    res.sendFile(path.join(__dirname + '/mvp_1.html'))
 })
 
 app.listen(3000, () => {
