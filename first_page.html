@@ -31,7 +31,16 @@
 
             .logo {
                 cursor: pointer;
-                margin-right: auto;
+                order: 3;
+                margin-left: auto;
+            }
+
+            nav {
+                order: 1;
+            }
+
+            .cta {
+                order: 2;
             }
 
             .nav__links {
@@ -41,6 +50,10 @@
             .nav__links li {
                 display: inline-block;
                 padding: 0px 20px;
+            }
+
+            .nav__links li:nth-child(1) {
+                padding: 0 20px 0 0;
             }
 
             .nav__links li a {
